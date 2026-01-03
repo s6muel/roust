@@ -3,7 +3,9 @@
 [![PyPI](https://img.shields.io/pypi/v/roust.svg)](https://pypi.org/project/roust/)
 [![Changelog](https://img.shields.io/github/v/release/s6muel/roust?include_prereleases&label=changelog)](https://github.com/s6muel/roust/releases)
 [![Tests](https://github.com/s6muel/roust/actions/workflows/test.yml/badge.svg)](https://github.com/s6muel/roust/actions/workflows/test.yml)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/s6muel/roust/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/License-GNU_GPL_v3-blue)](https://github.com/s6muel/roust/blob/master/LICENSE)
+
+
 
 A simple tool to make maintaining packages on Arch ezpz.
 
