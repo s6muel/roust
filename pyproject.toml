@@ -1,0 +1,28 @@
+[project]
+name = "roust"
+version = "0.1"
+description = "A simple tool to make maintaining packages on Arch ezpz."
+readme = "README.md"
+authors = [{name = "Sam Sinclair"}]
+license = "Apache-2.0"
+requires-python = ">=3.10"
+classifiers = []
+dependencies = [
+    "click"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/s6muel/roust"
+Changelog = "https://github.com/s6muel/roust/releases"
+Issues = "https://github.com/s6muel/roust/issues"
+CI = "https://github.com/s6muel/roust/actions"
+
+[project.scripts]
+roust = "roust.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]
